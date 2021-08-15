@@ -11,3 +11,86 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 3rem;
+    border-bottom: white solid 3px;
+}
+h2 {
+   
+    color: white;
+    margin-top:3rem;
+    margin-bottom: 2rem;
+    border-bottom: white solid 1px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.gridContainer {
+    text-align: center;
+    margin-top: 2rem;
+    position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+ 
+}
+.row {
+    flex-wrap: nowrap;
+}
+.squareBox {
+    text-align: center;
+    height: 10rem;
+    background: grey 0.6;
+    border: white solid 1px;
+    max-width: 10rem;
+    min-width: 10em;
+    color: white; 
+}
+.squareBox:hover {
+    text-align: center;
+    height: 10rem;
+    background:rgb(202, 202, 202, 0.3);
+    border: white solid 1px;
+    max-width: 10rem;
+    min-width: 10em;
+    color: white; 
+    cursor: pointer;
+}
+btn-light {
+color: transparent;
+}
+p {
+    font-size: 6.5rem;
+}
+
+.off {
+    text-align: center;
+    width: 10rem;
+    height: 10rem;
+    background: grey;
+}
+
+.onX {
+    width: 10rem;
+    height: 10rem;
+    background: red;
+}
+
+.onO {
+    width: 10rem;
+    height: 10rem;
+    background: yellow;
+}
